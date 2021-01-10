@@ -1,0 +1,21 @@
+{
+  "name": "rest-api",
+  "version": "0.1.0",
+  "description": "rest-api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "hatem ben tayeb",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
